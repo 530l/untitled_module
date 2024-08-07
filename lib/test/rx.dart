@@ -1,6 +1,6 @@
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 
-import 'entity/entitys.dart';
+import 'entitys.dart';
 
 ///使用Get的响应式编程就像使用setState一样简单。文中把 响应式/可观察变量 称为Rx，并提供了三种不同的定义方式：
 // 2.2.1. 定义响应式变量的三种方式
