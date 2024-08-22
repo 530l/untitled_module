@@ -2,13 +2,7 @@
 class Assets {
   Assets._();
 
-  static const String entityBanner = 'lib/entity/BannerEntity.dart';
+  static const String entityBannerEntity = 'lib/entity/BannerEntity.dart';
   static const String generatedAssets = 'lib/generated/assets.dart';
-  static const String libBanner = 'lib/BannerEntity.dart';
-  static const String libMain = 'lib/main.dart';
-  static const String libMyGetxController = 'lib/myGetxController.dart';
-  static const String libRiverpodmain = 'lib/riverpodmain.dart';
-  static const String libRouteMain = 'lib/route_main.dart';
-  static const String libWidgetMain = 'lib/WidgetMain.dart';
 
 }
