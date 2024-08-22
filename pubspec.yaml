@@ -23,6 +23,7 @@ dependencies:
   cached_network_image: ^3.3.0
   flutter_riverpod: ^2.5.1   # Riverpod核心库
   riverpod_annotation: ^2.3.5  # Riverpod注解
+  dio: ^5.5.0+1
 
 dev_dependencies:
   flutter_test:
@@ -32,7 +33,7 @@ dev_dependencies:
   flutter_launcher_icons: ^0.13.1    # 图标生成插件
   flutter_native_splash: ^2.3.8 # 自定义启动页
   build_runner: ^2.4.11   # Dart代码生成文件
-  json_serializable: ^6.7.1
+  json_serializable: ^6.8.0
   riverpod_generator: ^2.4.0  # Riverpod代码生成器
   custom_lint: ^0.6.4   # 为Dart和Flutter项目自定义lint规则，Lint有助于捕获潜在错误，并强制执行一致的编程风格
   riverpod_lint: ^2.3.10  # 专为Riverpod设计的一套lint规则，有助于再使用Riverpod时执行最佳实践
@@ -89,3 +90,6 @@ flutter:
     androidX: true
     androidPackage: com.example.untitled_module
     iosBundleIdentifier: com.example.untitledModule
+  assets:
+    - lib/entity/
+
